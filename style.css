@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    border: 0;
+}
+ 
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+
+}
+
+#topo, #brasil, #internacional, #economia, #saude, #ciencia, #fotos{
+    width: 100%;
+    height:233px ;
+    background: #fff url(fundo.png) ;
+    margin-bottom: px;
+    position: relative;
+    
+}
+
+#cabecalho{
+        width: 80%; 
+        height: 179px;
+        margin: 0 auto;
+        background: url(detalhe-topo.png) no-repeat right;
+        padding: 10px;
+        position: relative;
+      
+}
+
+#barra{
+    position: absolute;
+    top: 150px;
+    
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+   
+}
+
+ul li{
+    float: left;
+    background-color: rgb(180, 13, 13);
+}
+
+ul a{
+    display: block;
+    
+    text-decoration: none;
+    color: white;
+    background: url(divisor.png) repeat-y;
+    padding:5px 11px 5px 11px;
+    
+}
+
+ul .primeiro a{
+    background: none;
+}
+
+.listahorizontal a:hover{
+    color: rgb(255, 255, 255);
+    background: #ea0404;
+}
+
+#home #brasil .home a {
+    color:#ea0404;
+    background: #44cade;
+
+}
+
+#topo #cabecalho #barra .home a,
+#brasil #cabecalho #barra .brasil a,
+#internacional  #cabecalho #barra .internacional a,
+#saude  #cabecalho #barra .saude a,
+#economia  #cabecalho #barra .economia a,
+#ciencia  #cabecalho #barra .ciencia a,
+#fotos  #cabecalho #barra .fotos a{ 
+    background-color: rgb(87, 13, 13);
+    color: white;
+}
+
+.tudo{
+    
+    width: 80%;
+    margin: 0 auto;
+    height: 1000px;
+    padding: 10px;
+    
+   
+}
+
+#lateral{
+    width: 20%;
+    height: auto;
+    float: left;
+  
+}
+
+#primeira{
+    
+    width: 47%;
+    height: auto;
+    overflow: hidden;
+    float: right;
+    margin-right: 5%;
+
+}
+
+#taxi, #doutor{
+    padding-top: 10px;
+}
+
+#doutor h3, #taxi h3, .conteudobrasileiro h3{
+    background-color: rgb(160, 6, 6);
+    color: white;
+    width: auto;
+    display: inline;
+}
+
+
+.leiamais{
+   color: red;
+}
+
+#segunda{
+    width: 47%;
+    height: auto;
+    float: right;
+}
+
+
+#rodape{
+    height: 20px;
+    width: 100%;
+   
+    text-align: left;
+    position: static;
+    top: 0;
+    clear: both;
+}
+
+#conteudo{
+   
+    width: auto;
+    height: auto;
+    float: right;
+    width: 76%;
+    height: auto;
+    
+    
+
+}
+
+h2{
+    color: #ffffff;
+    background-color: rgba(2, 25, 83, 0.855);
+    padding-left: 5px;
+}
+
+.alista{
+   
+    background-color: #ffffff;
+    color: black;
+    width: 100%;
+    padding-left: 30px;
+}
+
+a:hover{
+    color: #022e76;
+}
+
+#news{
+    position: relative;
+    top: 17em;
+    padding-right: 7px;
+    border: 1px solid red;
+   
+}
+
+#caixaemail{
+    border: #022e76;
+}
+
+input {
+    border: 2px solid #b10333;
+    height: 20px;
+    width: auto;
+}
+
+.submit{
+    background-color: #b10333;
+    height: 30px;
+}
+
+.abaixodestaque{
+    padding-top: 20px;
+  
+}
+
+h5{
+ display: inline;
+    color: #44cade;
+    padding-left: 15px;
+}
+
+li a img{
+    float: left;
+   
+}
+
+#textoabaixo{
+    font-size: 0.8em;
+    color: black;
+    text-indent: 2px;
+    text-align: justify;
+    margin-left: 32%;
+   
+}
+
+#listadebaixo li{
+    background-color: #fff;
+    border-bottom: 1px solid rgb(125, 121, 121);
+    
+    
+}
+
+#listabrasil a {
+    padding-left: 0;
+}
+
+#listadebaixo p{
+    margin-left: 16%;
+}
+
+.conteudobrasileiro{
+    width: 80%;
+    padding-left: 20px;
+    display: block;
+    margin-left: 20%;
+}
+
+.conteudobrasileiro p {
+    text-align: justify;
+    line-height: 1em;
+    text-indent: 50px;
+    font-weight: normal;
+    
+}
+
+#librasil{
+    color: black;
+    text-indent: 1%;
+    font-size: 0.9em;
+    background-color: white;
+    
+}
+
+#teste1{
+    background-color: white;
+   
+}
+
+
+
+
+   
